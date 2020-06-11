@@ -1,4 +1,4 @@
-1.The variable nested contains a nested list. Assign ‘snake’ to the variable output using indexing.
+# 1.The variable nested contains a nested list. Assign ‘snake’ to the variable output using indexing.
 
 
 nested = [['dog', 'cat', 'horse'], ['frog', 'turtle', 'snake', 'gecko'], ['hamster', 'gerbil', 'rat', 'ferret']]
@@ -6,7 +6,7 @@ nested = [['dog', 'cat', 'horse'], ['frog', 'turtle', 'snake', 'gecko'], ['hamst
 output =nested [1][2]
 print("output: ", output)
 
-2.Below, a list of lists is provided. Use in and not in tests to create variables with Boolean values. See comments for further instructions.
+# 2.Below, a list of lists is provided. Use in and not in tests to create variables with Boolean values. See comments for further instructions.
 
 
 
@@ -33,7 +33,7 @@ for word in lst[:1]:
         orange = True
 print("orange: ", orange)
 
-3.Below, we’ve provided a list of lists. Use in statements to create variables with Boolean values - see the ActiveCode window for further directions.
+# 3.Below, we’ve provided a list of lists. Use in statements to create variables with Boolean values - see the ActiveCode window for further directions.
 
 
 
@@ -64,7 +64,7 @@ print("test3: ", test3)
     
 
 
-4.Provided is a nested data structure. Follow the instructions in the comments below. Do not hard code.
+# 4.Provided is a nested data structure. Follow the instructions in the comments below. Do not hard code.
 
 
 
@@ -106,7 +106,7 @@ print("twentyfour: ", twentyfour)
 
 
 
-5.The variable nested_d contains a nested dictionary with the gold medal counts for the top four countries in the past three Olympics. Assign the value of Great Britain’s gold medal count from the London Olympics to the variable london_gold. Use indexing. Do not hardcode.
+# 5.The variable nested_d contains a nested dictionary with the gold medal counts for the top four countries in the past three Olympics. Assign the value of Great Britain’s gold medal count from the London Olympics to the variable london_gold. Use indexing. Do not hardcode.
 
 
 nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 
@@ -117,7 +117,7 @@ london_gold = nested_d['London']['Great Britain']
 print("london_gold: ", london_gold)
 
 
-6.Below, we have provided a nested dictionary. Index into the dictionary to create variables that we have listed in the ActiveCode window.
+# 6.Below, we have provided a nested dictionary. Index into the dictionary to create variables that we have listed in the ActiveCode window.
 
 
 sports = {'swimming': ['butterfly', 'breaststroke', 'backstroke', 'freestyle'], 
@@ -156,7 +156,7 @@ for item in v44:
 print("V4: ", v4)
 
 
-7.Given the dictionary, nested_d, save the medal count for the USA from all three Olympics in the dictionary to the list US_count.
+# 7.Given the dictionary, nested_d, save the medal count for the USA from all three Olympics in the dictionary to the list US_count.
 
 
 nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 
@@ -170,7 +170,7 @@ for item in nested_d:
 print("US_count list: ", US_count)
 
 
-8.Iterate through the contents of l_of_l and assign the third element of sublist to a new list called third.
+# 8.Iterate through the contents of l_of_l and assign the third element of sublist to a new list called third.
 
 
 
@@ -184,7 +184,7 @@ for i in l_of_l:
     third.append(i[2])
 print("third list: ", third)
 
-9.Given below is a list of lists of athletes. Create a list, t, that saves only the athlete’s name if it contains the letter “t”. If it does not contain the letter “t”, save the athlete name into list other.
+# 9.Given below is a list of lists of athletes. Create a list, t, that saves only the athlete’s name if it contains the letter “t”. If it does not contain the letter “t”, save the athlete name into list other.
 
 
 
